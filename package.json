@@ -4,7 +4,7 @@
   "description": "Online coffee store app that utilizes HTML5 fundamentals",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node buildScripts/srcServer.js"
   },
   "repository": {
     "type": "git",

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/EngOwuor/Owuor-Coffee-Store#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "open": "^8.0.4"
   }
 }

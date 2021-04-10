@@ -1,0 +1,136 @@
+
+<!DOCTYPE html> 
+<html xmlns = "http://www.w3.org/1999/xhtml"> 
+<head> 
+    <title> Welcome to Joe's Coffee Shop! </Title> 
+    <link rel = "stylesheet" href = "Styles / layout.css" type = "text / css" /> 
+    <script src = "scripts / videoplayer.js"> </script> 
+    <script src = "scripts / canvasChart.js"> </script> 
+</head> 
+<body> 
+    <header> 
+        <div> 
+            <a class="headerlogo" href="index.html"> 
+                <img src = "images / logo.png" /> 
+            </a> 
+            <span id = "headername" >Joe's Coffee Shop </ span> 
+            <input type = "search" class = "searchbox" placeholder = "Search our store" /> 
+        </div>
+        <nav class = "backgroundgradient"> 
+            <ul> 
+                <li> class="navlink" href="index.html"> Home </ li> 
+                <li> <a class = "navLink" href = "blog.html"> Table </ li> 
+                <li> class="navlink" href="allcoffees.html"> our coffee </ li> 
+                <li> <a class = "navLink" href = "accessories.html"> Accessories </ li> 
+                <li> class="navlink" href="Gifts.html"> gifts </ li> 
+                <li> <a class="navlink" href="findus.html">Find us </ li> 
+                <li> class="navlink" href="checkout.html"> Checkout </ li> 
+
+            </ul> 
+        </nav> 
+    </header> 
+    <div id = "welcomeimage">
+        <img src = "images / coffeeheader.jpg" /> 
+    </div> 
+    <div id = "coffeeofthemonth"> 
+        <img src = "images / cotm.jpg" /> 
+    </DIV> 
+
+    <section class = "coffeedetails"> 
+        <header class = "delete"> 
+            <span> Coffee 1 </span> 
+        </header> 
+        <figure class = "productarticlelargefigure"> 
+            <img id = "coffee1" class = "productarticlelargeimage" src = "images / coffee / coffee1- large.jpg "/> 
+            <figcaption> Coffee 1 </figcaption> 
+        </figure> 
+        <div class ="productarticlecontent ">
+            <P class = "productarticledescription"> lorem ipsum carrots, ecological tomato soup. Unfortunately, you can not sit at the front carriages and wagons. Recommended by hate hate. Always in fermentum eu Vestibulum ac lorem nec ligula is always the mass. Each valley that sapien and varied. CNN, but from the present, eget fringilla enim. Maecenas varius sagittis sagittis than of life itself. Mauris purus now, the borders of the territory of any one sit amet, posuere may wish to try. Largest tomato now or to decorate chocolate. And now the biggest present. Suspendisse nec placerat out. But in order that the fear of drink, the price had not known how, the pull out. In order to rutrum lacus urna, vitae suscipit lorem eleifend ut. Now the laughter developers sit hatred, notebook only. That basketball largest clinical and orange. Vivamus ut tortor nibh. Ultricies smile entrance vestibule; ut rhoncus odio mollis it is not. <br /> massage various drink once. But in congue sem, accumsan vitae sollicitudin dolor, Vestibulum eget eros. Ut lacinia eleifend nisi, ultrices consectetur nulla facilisis vitae. Chat layer to layer is not pregnant. Maecenas ornare great, not lacinia sollicitudin. Nunc fermentum, but consumer financing afternoon. The refinancing. Consequat Duis aliquet magna facilisis, animations for posuere, Sed id Sed. The latest football first layer and the gate. Smartphones. US Politics drink carton until laughter running. Lorem ipsum dolor sit amet, consectetur adipiscing elit. There is no time to make weekend. But a great man, neither shall any Aliquam quis quam. At times, as I do not free him, To morrow is the gate. Live sauce, est at innovative real estate, consumer fears players, at a maximum of dui drink.
+            <p class = "productarticleprice"> € 10 </p> 
+        </DIV> 
+
+        <DIV> 
+            <video width = "320" height = "240" class = "coffeevideoplayer" id = "Videoplayer" poster = "image / logo. PNG "> <! - autoplay controls loop muted -> 
+                <source src =" video / movie.mp4 "type =" video / mp4" codecs = "avc1.42E01E, mp4a.40.2 " /> 
+                <source src =" video / movie.ogg "type =" video / ogg; codecs = "theory, Vorbis " /> 
+                sadly your browser has no support for video ... 
+            </video> 
+
+            <div id =" controls "> 
+                <div id ="therefore you can not see this chart? Upgrade to a new and better browser! 
+        </ canvas> 
+    </ div> 
+    <div id = "salesgraph">
+
+
+
+
+        <svg width = "3000" height = "3000"> <! - transform = "matrix (0 0 0 -1 -1 -1)" -> 
+            <defs> 
+                <linearGradient id = "gradient1" x1 = "0 % "y1 =" 0% "x2 =" 0% "y2 =" 100% "> 
+                    <stop offset =" 0% "style =" stop-color: rgb (255,255,0); stop-opacity: 1 "/ > 
+                    <stop offset = "100%" style = "stop-color: rgb (255,0,0); stop-opacity: 1" /> 
+                </ linearGradient> 
+            </ defs> 
+            <line x1 = "40" y1 = "800" x2 = "1200" y2 = "800" stroke = "black" stroke-width = "2"> </ line>
+            <line x1 = "40" y1 = "0" x2 = "40" Y2 = "800" stroke = "black" stroke-width = "2"> </ line> 
+
+            <line x1 = "40" y1 = "200 "x2 =" 1200 "y2 =" 200 "stroke =" black "stroke-width =" 0.5 "stroke-dasharray =" 10.5 "> </ line>
+            <line x1 = "40" y1 = "400" x2 = "1200" Y2 = "400" stroke = "black" stroke-width = "0.5" stroke-dasharray = "10.5"> </ line> 
+            <line x1 = "40" y1 = "600" x2 = "1200" y2 = "600" stroke = "black" stroke-width = "0.5" stroke-dasharray = "10.5"> </ line> 
+            <line x1 = "40" y1 = "800" x2 = "1200" y2 = "800" stroke = "black" stroke-width = "0.5" stroke-dasharray = "10.5"> </ line> 
+
+            <! - <rect class = "bar" x "- 90" y = "0" height = "170" width = "20" fill = "red" transform = "translate (0, 800), rotate (180)"> </ rect> -> 
+            <rect class = "bar" x = "70" y = "- 800" height = "170" width = "20" fill = "blue" transform = "scale (1, -1)" > </ rect> 
+            <rect class = "bar" x = "120" y = "- 800" height = "320" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect>
+            <rect class = "bar" x = "170" y = "- 800" height = "432" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect> 
+            < right class = "bar" x = "220" y = "- 800" height = "548" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect> 
+            <rect class = "bar" x = "270" y = "- 800" height = "342" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect> 
+            <rect class = "bar" x = "320" y = "- 800" height = "0" width = "20" fill = "url (# gradient1)" transform = "scale (1, -1)"> 
+                <animal attributeName = "Height" to = "689" fill = "freeze" 
+                          dur = "5" /> 
+            </ rect> 
+            <rect class = "bar" x = "370" y = "- 800" height = "344" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect>
+            <rect class = "bar" x = "420" y = "- 800" height = "109" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect> 
+            < right class = "bar" x = "470" y = "- 800" height = "655" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect> 
+            <rect class = "bar" x = "520" y = "- 800" height = "327" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect> 
+            <rect class = "bar" x = "570" y = "- 800" height = "109" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect> 
+            <right class = "bar" x = "620" y = "- 800" height = "235" width = "20" fill = "blue" transform = "scale (1, -1)"> </ rect> 
+
+            <text x = "73" y = "850" fill = "black"> May </ text> 
+            <text x = "123" y = "850" fill = "black"> May </ text> 
+            <text x = "173 "y =" 850 "fill =" black "> May </ text>y = "850" fill = "black"> May </ text> <text x = "173" y = "850" fill = "black"> May </ text>y = "850" fill = "black"> May </ text> <text x = "173" y = "850" fill = "black"> May </ text>
+            <text x = "223" y = "850" fill = "black"> May </ text> 
+            <text x = "273" y = "850" fill = "black"> May </ text> 
+            <text x = "323" y = "850" fill = "black"> May </ text> 
+            <text x = "373" y = "850" fill = "black"> May </ text> 
+            <text x = "423" y = "850" fill = "black"> Ago </ text> 
+            <text x = "473" y = "850" fill = "black"> Set </ text> 
+            <text x = "523" y = "850" fill = "black"> Out </ text> 
+            <text x = "573" y = "850" fill "black "> May </ text> 
+            <text x =" 623 "y =" 850 "fill =" black "> May </ text> 
+
+            <text x =" 70 "y =" 625 "fill =" # 888888 "> 170 </ text> 
+            <text x = "120" y = "475" fill = "# 888888"> 320 </ text> 
+            <text x = "170" y = "363" fill = "# 888888"> 432 < / text><text x = "170" y = "363" fill = "# 888888"> 432 </ text><text x = "170" y = "363" fill = "# 888888"> 432 </ text>
+            <text x = "220" y = "247" fill = "# 888888"> 548 </ text> 
+            <text x = "270" y = "453" fill = "# 888888"> 342 </ text> 
+            <text x = "320" y = "107" fill = "# 888888"> 689 </ text> 
+            <text x = "370" y = "451" fill = "# 888888"> 344 </ text> 
+            <text x = "420" y = "686" fill = "# 888888"> 109 </ text> 
+            <text x = "470" y = "140" fill = "# 888888"> 655 </ text> 
+            <text x = "520 "y =" 468 "fill =" # 888888 "> 327 </ text> 
+            <text x =" 570 "y =" 686 "fill = "# 888888"> 109 </ text> 
+            <text x = "620" y = "560" fill = "# 888888"> 235 </ text> 
+
+        </ svg> 
+    </ DIV> 
+
+
+    <script> 
+        document.addEventListener ( "DOMContentLoaded" initializeVideoPlayerControls, false);
+        document.addEventListener ( "DOMContentLoaded" drawChart, false); 
+    </ script> 
+
+</body> 
+</html>
